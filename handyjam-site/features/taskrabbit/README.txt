@@ -1,0 +1,1 @@
+This folder will contain TaskRabbit-style features like booking, calendar, and location-based search.

@@ -1,0 +1,1 @@
+This folder will contain Fiverr-style features like profiles, packages, and reviews.
