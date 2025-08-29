@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HandyJam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #2c3e50; }
+        header { background: #1abc9c; padding: 20px; text-align: center; color: white; }
+        .hero { padding: 40px; text-align: center; background: white; }
+        .features { display: flex; justify-content: space-around; padding: 20px; background: #eafaf7; }
+        .feature { width: 30%; text-align: center; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 10px; }
+        .contact-form { max-width: 600px; margin: 40px auto; background: white; padding: 20px; border-radius: 8px; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
+        button { background: #1abc9c; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HandyJam</h1>
+        <p>Find trusted service providers near you</p>
+    </header>
+    <div class="hero">
+        <h2>Easy Booking. Verified Providers. Secure Payments.</h2>
+        <p>Inspired by Fiverr & TaskRabbit</p>
+    </div>
+    <div class="features">
+        <div class="feature"><h3>Verified Providers</h3><p>Only trusted professionals</p></div>
+        <div class="feature"><h3>Easy Booking</h3><p>Schedule with ease</p></div>
+        <div class="feature"><h3>Secure Payments</h3><p>Fast and safe transactions</p></div>
+    </div>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 HandyJam. All rights reserved.</p>
+    </footer>
+</body>
+</html>
