@@ -1,0 +1,12 @@
+
+[[redirects]]
+  from = "http://handyjam.io/*"
+  to = "https://handyjam.io/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.handyjam.io/*"
+  to = "https://handyjam.io/:splat"
+  status = 301
+  force = true
